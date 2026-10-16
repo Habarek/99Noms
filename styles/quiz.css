@@ -1,0 +1,86 @@
+.correct {
+  background-color: lightgreen;
+  color: var(--texte-fonce);
+}
+.incorrect {
+  background-color: lightcoral;
+  color: var(--texte-fonce);
+}
+
+h2 {
+  text-align: center;
+}
+h3 {
+  /* border: green solid 2px; */
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: var(--texte-fonce);
+}
+
+button {
+  font-size: 18px;
+  font-family: inherit;
+  min-height: 48px;
+  width: 100%;
+  background-color: var(--principale);
+  color: var(--fond);
+  border-radius: 15px;
+}
+
+.btnNext {
+  background-color: var(--accent);
+  color: var(--texte-fonce);
+  font-weight: bold;
+  position: sticky;
+  bottom: 16px;
+}
+
+#zoneQuiz p {
+  /* border: red solid 2px; */
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.scoreAndQuestions {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.scoreAndQuestions p {
+  width: auto;
+  margin: 0;
+}
+
+#zoneQuiz {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+button:active {
+  /* background-color: rgb(255, 255, 0); */
+  color: var(--texte-fonce);
+  transform: scale(0.97);
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+#zoneQuiz h2,
+#zoneQuiz h3,
+#zoneQuiz p {
+  margin: 0;
+}
+
+.btnTryagain {
+  background-color: #4f46e5;
+}
+.btnExit {
+  background-color: transparent;
+  border: var(--accent) solid 2px;
+  color: var(--texte-fonce);
+}
