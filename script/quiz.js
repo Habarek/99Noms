@@ -23,11 +23,14 @@ let confirmToExit = document.getElementById("backHome");
 let score = 0;
 let counter = 0; // le nombre de questions
 
+//------------------- CONFIRMATION DE QUITTER LE QUIZZ PENDANT LE QUIZ ------------------
 confirmToExit.addEventListener("click", (event) => {
   if (counter > 0 && counter < 10) {
-    const exit = confirm("Quitter la partie ? Ta progression sera perdue");
+    const exit = confirm("Quitter la partie ? Ta progression sera perdue"); // confirm() permet d'afficher dans le navigateur le message avec déjà 2 bouton
     if (exit === false) {
-      event.preventDefault();
+      // confirm() est un booléen ok=true annuler=false
+      event.preventDefault(); // lorsque l'on clique sur annuler sa revient à la page sans modification
+      //(si on clique ok lorque le message de confirm() apparait exit===true et renverra à la page d'acceuil)
     }
   }
 });
