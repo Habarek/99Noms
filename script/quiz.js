@@ -18,8 +18,19 @@ const random = (min, max) => {
 let elementQuiz = document.getElementById("zoneQuiz");
 let elementScore = document.getElementById("scoreDisplay"); // la variable est mise à l'extérieur de la founction pour qu'elle puisse ne pas être éffacé à chaque tour à cause de elementQuiz.innerHTML = ""
 let elementQuestion = document.getElementById("questionDisplay");
+let confirmToExit = document.getElementById("backHome");
+
 let score = 0;
 let counter = 0; // le nombre de questions
+
+confirmToExit.addEventListener("click", (event) => {
+  if (counter > 0 && counter < 10) {
+    const exit = confirm("Quitter la partie ? Ta progression sera perdue");
+    if (exit === false) {
+      event.preventDefault();
+    }
+  }
+});
 
 // --------------FONCTION POUR AFFICHER LES ELEMENTS D'UN TABLEAU D'OBJET EN FONCTION DU NOMBRE ALEATOIRE---------------
 
@@ -107,7 +118,7 @@ const afficheNameRandom = () => {
       if (idOfProposition === idOfQuestion) {
         buttoPropositionForQuiz.classList.add("correct"); // Met en couleur le bouton de la bonne réponse programmé dans quiz.CSS
         const correctAnswer = document.createElement("p");
-        correctAnswer.textContent = "Bonne réponse Bravo ! 👏 ";
+        correctAnswer.textContent = "✅ Bonne réponse";
         elementQuiz.appendChild(correctAnswer);
         score++;
         elementScore.textContent = "Score : " + score;
@@ -120,12 +131,11 @@ const afficheNameRandom = () => {
             arrayButtonOfProposition[k].classList.add("correct");
           }
         }
-        buttoPropositionForQuiz.classList.add("incorrect"); // Met en couleur le bouton de la mauvaise réponse proggrammé dans quiz.CSS;
+        buttoPropositionForQuiz.classList.add("incorrect"); // Met en couleur le bouton de la mauvaise réponse programmé dans quiz.CSS;
         // idOfProposition.classList.add("correct");
         const wrongAnswer = document.createElement("p");
         wrongAnswer.textContent =
-          "Mauvaise réponse la réponse est   " +
-          nameOfAllah[randomNumber][cleProposition];
+          "❌  la réponse est   " + nameOfAllah[randomNumber][cleProposition];
         elementQuiz.appendChild(wrongAnswer);
       }
 
@@ -134,7 +144,8 @@ const afficheNameRandom = () => {
         arrayButtonOfProposition[j].disabled = true; // .disabled fait disparaite les boutons
       }
       counter++;
-
+      // const resultBtn = document.createElement("button");
+      // resultBtn.textContent = "Voir le résultat";
       if (counter === 10) {
         const finalMessage = document.createElement("p");
         finalMessage.textContent =

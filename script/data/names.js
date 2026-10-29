@@ -3,7 +3,7 @@ export const nameOfAllah = [
     id: 1,
     name: "Allah",
     arabic: "الله",
-    meaning: `L'Être suprême`,
+    meaning: `Dieu`,
     family: "Unicité",
     explanation: `Ces nobles noms ont des significations proches ils dénotent tous qu'Allah a pour qualités la perfection de la clémence, V'infinie bonté et la grande générosité et pitié. Ainsi donc tous les avantages, plaisirs et bienfaits dont jouissent les mondes célestes et terrestres proviennent d'Allah, de Sa miséricorde Sa bonté Son immense générosité Egalement tous les désagréments malheurs craintes. danger et
 

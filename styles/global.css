@@ -8,7 +8,7 @@
 * {
   box-sizing: border-box;
 }
-.back-link {
+.backHome {
   display: inline-block;
   padding: 12px 0;
   color: var(--principale);
