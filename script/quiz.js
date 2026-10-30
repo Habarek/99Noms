@@ -147,41 +147,45 @@ const afficheNameRandom = () => {
         arrayButtonOfProposition[j].disabled = true; // .disabled fait disparaite les boutons
       }
       counter++;
-      // const resultBtn = document.createElement("button");
-      // resultBtn.textContent = "Voir le résultat";
-      if (counter === 10) {
-        const finalMessage = document.createElement("p");
-        finalMessage.textContent =
-          "Quiz terminé ! Score final : " + score + "/10";
+      const netxQuestion = document.createElement("button");
+      netxQuestion.classList.add("btnNext");
+      netxQuestion.textContent = "Suivant";
+      elementQuiz.appendChild(netxQuestion);
+      netxQuestion.addEventListener("click", () => {
         elementQuiz.innerHTML = ""; // elementQuiz.innerHTML = " " Permet de vider la page HTML
-        elementQuiz.appendChild(finalMessage);
-        const tryAgain = document.createElement("button"); // Création d'un bouton
-        tryAgain.textContent = "Recommencer";
-        tryAgain.classList.add("btnTryagain");
-        elementQuiz.appendChild(tryAgain);
-        tryAgain.addEventListener("click", () => {
-          elementQuiz.innerHTML = "";
-          score = 0;
-          counter = 0;
-          elementScore.textContent = "Score : " + score; // pour remettre le score à 0 sinon le score reste après recommencer
-          afficheNameRandom();
-        });
-        const exitQuiz = document.createElement("button");
-        exitQuiz.textContent = "Quitter";
-        exitQuiz.classList.add("btnExit");
-        elementQuiz.appendChild(exitQuiz);
-        exitQuiz.addEventListener("click", () => {
-          window.location.href = "../index.html"; // lors du click sur le bouton quitter, sa renvoi à lapage d'acceuil
-        });
-      } else {
-        const netxQuestion = document.createElement("button");
-        netxQuestion.classList.add("btnNext");
-        netxQuestion.textContent = "Suivant";
-        elementQuiz.appendChild(netxQuestion);
-        netxQuestion.addEventListener("click", () => {
-          elementQuiz.innerHTML = ""; // elementQuiz.innerHTML = " " Permet de vider la page HTML
 
-          afficheNameRandom();
+        afficheNameRandom();
+      });
+      if (counter === 10) {
+        const showTheResult = document.createElement("button");
+        showTheResult.classList.add("btnNext");
+        netxQuestion.style.display = "none"; // arrivé à 10 le bouton "suivant" disparait
+        showTheResult.textContent = "Voir le résultat";
+        elementQuiz.appendChild(showTheResult);
+        showTheResult.addEventListener("click", () => {
+          elementQuiz.innerHTML = "";
+          const finalMessage = document.createElement("p");
+          finalMessage.textContent =
+            "Quiz terminé ! Score final : " + score + "/10 👏";
+          elementQuiz.appendChild(finalMessage);
+          const tryAgain = document.createElement("button"); // Création d'un bouton
+          tryAgain.textContent = "Recommencer";
+          tryAgain.classList.add("btnNext");
+          elementQuiz.appendChild(tryAgain);
+          tryAgain.addEventListener("click", () => {
+            elementQuiz.innerHTML = "";
+            score = 0;
+            counter = 0;
+            elementScore.textContent = "Score : " + score; // pour remettre le score à 0 sinon le score reste après recommencer
+            afficheNameRandom();
+          });
+          const exitQuiz = document.createElement("button");
+          exitQuiz.textContent = "Quitter";
+          exitQuiz.classList.add("btnExit");
+          elementQuiz.appendChild(exitQuiz);
+          exitQuiz.addEventListener("click", () => {
+            window.location.href = "../index.html"; // lors du click sur le bouton quitter, sa renvoi à lapage d'acceuil
+          });
         });
       }
     });
