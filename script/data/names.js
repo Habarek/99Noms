@@ -204,7 +204,7 @@ Le jeu des mots du verset est lumineux : ceux qui ont l'īmān reçoivent l'amn.
     id: 9,
     name: "Al-'Aziz",
     arabic: "العزيز",
-    meaning: `	Le Tout-Puissant`,
+    meaning: `Le Tout-Puissant`,
     family: "Puissance",
     explanation: "",
   },

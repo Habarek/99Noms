@@ -156,6 +156,7 @@ const afficheNameRandom = () => {
 
         afficheNameRandom();
       });
+
       if (counter === 10) {
         const showTheResult = document.createElement("button");
         showTheResult.classList.add("btnNext");
@@ -164,14 +165,16 @@ const afficheNameRandom = () => {
         elementQuiz.appendChild(showTheResult);
         showTheResult.addEventListener("click", () => {
           elementQuiz.innerHTML = "";
+          const afficheMessageFinal = document.createElement("div"); // créaction de div pour centrer le message final
+          afficheMessageFinal.classList.add("resultScreen");
           const finalMessage = document.createElement("p");
           finalMessage.textContent =
             "Quiz terminé ! Score final : " + score + "/10 👏";
-          elementQuiz.appendChild(finalMessage);
+          afficheMessageFinal.appendChild(finalMessage);
           const tryAgain = document.createElement("button"); // Création d'un bouton
           tryAgain.textContent = "Recommencer";
           tryAgain.classList.add("btnNext");
-          elementQuiz.appendChild(tryAgain);
+          afficheMessageFinal.appendChild(tryAgain); // on met tryAgain dans afficheMessageFinal
           tryAgain.addEventListener("click", () => {
             elementQuiz.innerHTML = "";
             score = 0;
@@ -182,10 +185,11 @@ const afficheNameRandom = () => {
           const exitQuiz = document.createElement("button");
           exitQuiz.textContent = "Quitter";
           exitQuiz.classList.add("btnExit");
-          elementQuiz.appendChild(exitQuiz);
+          afficheMessageFinal.appendChild(exitQuiz); //  on met exitQuiz dans afficheMessageFinal
           exitQuiz.addEventListener("click", () => {
             window.location.href = "../index.html"; // lors du click sur le bouton quitter, sa renvoi à lapage d'acceuil
           });
+          elementQuiz.appendChild(afficheMessageFinal);
         });
       }
     });

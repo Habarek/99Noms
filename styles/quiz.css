@@ -84,3 +84,12 @@ button:disabled {
   border: var(--accent) solid 2px;
   color: var(--texte-fonce);
 }
+
+.resultScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centre horizontalement dans la colonne */
+  justify-content: center; /* centre verticalement dans la boîte */
+  min-height: 60vh; /* la boîte occupe 60 % de la hauteur de l'écran */
+  gap: 16px;
+}
