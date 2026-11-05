@@ -13,14 +13,13 @@ elementBtnTop.addEventListener("click", () => {
 
 // elementBtnTop = document.getElementById("btnTop") et elementBtnTop.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: "smooth" });
 // Permettent de remonter tout en haut lors du click sur le bouton
-console.log("position actuel du défilement ==>" + window.scrollY);
 
 // La fonction créer une boucle qui parcour tout le tableau d'objet ( tout les objets dans le tableau)
 const afficheNom = (tableau) => {
   for (let i = 0; i < tableau.length; i++) {
     //-------------- Apparition du nom et traduction--------------------
     //  .name et .meaning sont les clés des objets que je souhaite
-    console.log(tableau[i].name + " - " + tableau[i].meaning); //console.log(nameOfAllah[i].name + " " + nameOfAllah[i].meaning) affichent les valeur des clés
+    //(nameOfAllah[i].name + " " + nameOfAllah[i].meaning) affichent les valeur des clés
     const nameAndMeaning = tableau[i].name + " - " + tableau[i].meaning;
     const card = document.createElement("div"); // Création d'une div pour contenir le baliseNameAndMeaning et baliseExplanation
 
@@ -59,13 +58,12 @@ const afficheNom = (tableau) => {
           arrayAllOfNames[j].title.textContent =
             "▸ " + arrayAllOfNames[j].label;
         }
-        if (baliseExplanation.classList.contains("details")) {
-          // Si l'explication est caché
-
-          baliseNameAndMeaning.textContent = "▾ " + nameAndMeaning; // on affiche ceci
-        } else {
-          baliseNameAndMeaning.textContent = "▸ " + nameAndMeaning; // Sinon on affiche cela
-        }
+      }
+      if (baliseExplanation.classList.contains("details")) {
+        // Si l'explication est caché
+        baliseNameAndMeaning.textContent = "▾ " + nameAndMeaning; // on affiche ceci
+      } else {
+        baliseNameAndMeaning.textContent = "▸ " + nameAndMeaning; // Sinon on affiche cela
       }
       baliseExplanation.classList.toggle("details"); // .toggle fait ajouter ou retirer le class CSS ("détails")
     });

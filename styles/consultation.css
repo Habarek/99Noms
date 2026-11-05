@@ -22,7 +22,6 @@
   color: var(--fond);
   font-size: 28px;
   font-weight: bold;
-  border: black solid 2px;
   background-color: var(--principale);
   height: 54px;
   width: 54px;
@@ -30,4 +29,5 @@
   position: fixed;
   bottom: 16px;
   right: 16px;
+  cursor: pointer;
 }

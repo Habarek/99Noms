@@ -19,7 +19,7 @@ let elementQuiz = document.getElementById("zoneQuiz");
 let elementScore = document.getElementById("scoreDisplay"); // la variable est mise à l'extérieur de la founction pour qu'elle puisse ne pas être éffacé à chaque tour à cause de elementQuiz.innerHTML = ""
 let elementQuestion = document.getElementById("questionDisplay");
 let confirmToExit = document.getElementById("backHome");
-
+let arrayAskedNames = []; // le tableau permet d'éviter les doublons
 let score = 0;
 let counter = 0; // le nombre de questions
 
@@ -44,6 +44,13 @@ confirmToExit.addEventListener("click", (event) => {
 // // .appenChild permet d'insérer dans la page web
 const afficheNameRandom = () => {
   let randomNumber = random(0, nameOfAllah.length - 1);
+  while (arrayAskedNames.includes(randomNumber)) {
+    // tant que le nbr aléatoire généré par randomNumber est déjà dans arrayAskedNames
+    randomNumber = random(0, nameOfAllah.length - 1); // randomNumber génère un autre nombre aléatoire
+  }
+  arrayAskedNames.push(randomNumber); // mettre le nouveau nbr randomNumber dans le tableau arrayAskedNames
+  console.log("===> 🚀🚀", arrayAskedNames);
+
   let nameOrMeaning = random(0, 1); // variable qui stock un chiffre aléatoire (0 ou 1)pour choisir le type de question (Nom => sens ou sens => Nom)
   elementQuestion.textContent = "Question : " + (counter + 1) + "/10"; //permet de commencer à 1
 
@@ -173,12 +180,13 @@ const afficheNameRandom = () => {
           afficheMessageFinal.appendChild(finalMessage);
           const tryAgain = document.createElement("button"); // Création d'un bouton
           tryAgain.textContent = "Recommencer";
-          tryAgain.classList.add("btnNext");
+          // tryAgain.classList.add("btnNext");
           afficheMessageFinal.appendChild(tryAgain); // on met tryAgain dans afficheMessageFinal
           tryAgain.addEventListener("click", () => {
             elementQuiz.innerHTML = "";
             score = 0;
             counter = 0;
+            arrayAskedNames = [];
             elementScore.textContent = "Score : " + score; // pour remettre le score à 0 sinon le score reste après recommencer
             afficheNameRandom();
           });

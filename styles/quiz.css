@@ -76,9 +76,6 @@ button:disabled {
   margin: 0;
 }
 
-.btnTryagain {
-  background-color: #4f46e5;
-}
 .btnExit {
   background-color: transparent;
   border: var(--accent) solid 2px;
@@ -92,4 +89,8 @@ button:disabled {
   justify-content: center; /* centre verticalement dans la boîte */
   min-height: 60vh; /* la boîte occupe 60 % de la hauteur de l'écran */
   gap: 16px;
+}
+
+.resultScreen button {
+  max-width: 300px;
 }

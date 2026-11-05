@@ -4,6 +4,7 @@
   --accent: #d9a441;
   --texte: #2b2b2b;
   --texte-fonce: rgb(5, 5, 95);
+  --card: rgb(254, 255, 255);
 }
 * {
   box-sizing: border-box;
