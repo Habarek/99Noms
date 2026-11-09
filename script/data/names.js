@@ -1301,16 +1301,9 @@ const NAME = [
     name: "Allah",
     meaning: "Le Dieu, l'Être suprême",
     family: "Unicité",
-    explanation: `Allah (الله) est le Nom suprême : le nom propre de Dieu, l'Unique, le Créateur des cieux et de la terre. Tous les autres Noms sublimes — Ar-Rahmān, Al-Malik, Al-Quddūs… — se rattachent à lui : on dit « Ar-Rahmān est un des Noms d'Allah », jamais l'inverse. Mentionné plus de 2 700 fois dans le Coran, ce Nom porte à lui seul le cœur de la foi musulmane : l'unicité divine, le tawhīd.
-
-Que signifie Allah ?
-Selon la majorité des linguistes, le nom Allah se rattache à la racine alif-lām-hā' (أ ل ه), qui exprime la divinité et l'adoration : il réunit l'article défini al- et ilāh (divinité) — « LA divinité », celle en dehors de laquelle rien ne mérite d'être adoré. Ce Nom unique désigne :
-
-Le Nom propre de Dieu : il n'a ni pluriel, ni féminin, ni équivalent — à l'image de Celui qu'il nomme, sans associé ni semblable.
-Le Nom qui rassemble tous les attributs : dire « Allah », c'est désigner d'un seul mot Celui qui est à la fois le Miséricordieux, le Puissant, le Sage, le Juste.
-Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah proclame que Lui seul en est digne — c'est le sens du témoignage lā ilāha illā Allāh.
-`,
-    explanationKids: "",
+    explanation: `« Allah » est le nom propre et principal de Dieu en islam, le Créateur unique des cieux et de la terre. Ce nom spécial signifie « la seule divinité qui mérite d'être adorée » et regroupe tous Ses attributs de perfection, comme la miséricorde et la sagesse. Mentionné très souvent dans le Coran, il résume à lui seul le cœur de la foi musulmane et l'unicité divine.`,
+    explanationKids: `
+« Allah » est le nom le plus important de Dieu, le Créateur unique de tout ce qui existe. Ce nom spécial signifie qu'Il est le seul à mériter notre amour et nos prières. Il rassemble toutes Ses belles qualités, comme Sa gentillesse, Sa force et Sa sagesse.`,
     verset: `« Dis : "Il est Allah, Unique. Allah, Celui dont tout dépend." » (Sourate Al-Ikhlās, 112:1-2)
     
     « Certes, c'est Moi Allah : point de divinité que Moi. Adore-Moi donc et accomplis la prière en souvenir de Moi. » (Sourate Tā-Hā, 20:14)`,
@@ -1323,10 +1316,15 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Ar-Rahman",
     meaning: "Le Tout-Miséricordieux",
     family: "Miséricorde",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `« Ar-Rahmān », qui se traduit par « Le Tout-Miséricordieux », est l'un des noms les plus majestueux d'Allah. Il désigne une compassion infinie et universelle qui enveloppe toute la création, profitant à chaque être vivant sur Terre sans exception. Ce nom est tellement important qu'il donne son titre à la sourate Ar-Rahman (la 55ᵉ sourate du Coran). Contrairement à d'autres attributs, cette appellation d'une bonté absolue est exclusivement réservée à Dieu.`,
+    explanationKids: `« Ar-Rahmān » est l'un des plus beaux noms de Dieu, qui signifie « Le Tout-Miséricordieux ». Une sourate entière du Coran porte ce nom : c'est la sourate Ar-Rahman (la sourate 55). Cela veut dire que Dieu offre Sa bonté et Sa gentillesse à tout le monde sur Terre sans exception. Par exemple, quand le soleil brille et réchauffe aussi bien les plantes, les animaux que les humains, c'est une preuve de cette miséricorde !`,
+    verset: `« Le Tout-Miséricordieux. Il a enseigné le Coran. » (Sourate Ar-Rahmān, 55:1-2).
+    
+    « Dis : "Invoquez Allah, ou invoquez Ar-Rahmān. Quel que soit le nom par lequel vous L'invoquez, Il a les plus beaux Noms." » (Sourate Al-Isrā', 17:110).
+    
+    « Ceux qui croient et accomplissent les bonnes œuvres, le Tout-Miséricordieux leur accordera Son amour. » (Sourate Maryam, 19:96).`,
+    hadith:
+      "Le Prophète ﷺ a dit : « Ceux qui font miséricorde, le Tout-Miséricordieux (Ar-Rahmān) leur fait miséricorde. » (rapporté par At-Tirmidhī).",
     invocations: "",
   },
   {
@@ -1335,11 +1333,20 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Ar-Rahim",
     meaning: "Le Très-Miséricordieux",
     family: "Miséricorde",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
-    invocations: "",
+    explanation: `« Ar-Rahīm », qui se traduit par « Le Très-Miséricordieux », désigne la miséricorde agissante et continue d'Allah, particulièrement envers les croyants. Ce nom est tellement central qu'il est prononcé des dizaines de fois par jour dans la basmala (« Au nom d'Allah, le Tout-Miséricordieux, le Très-Miséricordieux ») et à l'ouverture de chaque sourate du Coran. Alors qu'Ar-Rahmān représente la miséricorde universelle qui enveloppe toute la création, Ar-Rahīm exprime le soutien permanent, le pardon et la tendresse qu'Allah accorde activement à ceux qui se tournent vers Lui.`,
+    explanationKids: `« Ar-Rahīm » est un autre très beau nom de Dieu qui signifie « Le Très-Miséricordieux ». C'est la miséricorde de Dieu qui agit tous les jours pour nous aider, nous pardonner quand on fait une bêtise et répondre à nos prières. On le répète très souvent, par exemple au début de chaque prière ou avant de commencer une bonne action. Pour comprendre à quel point Il prend soin de nous, le Prophète ﷺ a expliqué que l'amour d'Allah pour Ses serviteurs est encore plus fort que l'amour d'une maman pour son bébé !`,
+    verset: `« Et Il est Miséricordieux envers les croyants. » (Sourate Al-Ahzāb, 33:43).
+    
+    « Informe Mes serviteurs que c'est Moi le Pardonneur, le Très-Miséricordieux. » (Sourate Al-Hijr, 15:49).
+
+`,
+    hadith: `Dans un hadith rapporté par Al-Bukhārī et Muslim, le Prophète ﷺ vit une captive serrer son enfant contre elle et dit à ses compagnons : « Allah est plus miséricordieux envers Ses serviteurs que cette mère envers son enfant. » Un autre hadith authentique enseigne qu'Allah a créé cent parts de miséricorde : une seule a été répartie entre toutes les créatures — c'est par elle que les êtres s'aiment et se protègent — et Il en a réservé quatre-vingt-dix-neuf pour le Jour de la Résurrection.
+    
+    Le Prophète ﷺ a dit : « Ceux qui font miséricorde, le Tout-Miséricordieux leur fait miséricorde. Faites miséricorde à ceux qui sont sur terre, Celui qui est au ciel vous fera miséricorde. » (rapporté par At-Tirmidhī et Abū Dāwūd). Douceur envers les enfants, patience envers les parents, indulgence envers ceux qui se trompent : autant de manières de refléter ce Nom.`,
+    invocations: `« Ô Allah, c'est Ta miséricorde que j'espère : ne me confie pas à moi-même, ne serait-ce que le temps d'un clin d'œil, et arrange toutes mes affaires. Il n'y a de divinité digne d'adoration que Toi. » (rapporté par Abū Dāwūd)
+
+Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
+`,
   },
   {
     id: 4,
@@ -1347,10 +1354,16 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Malik",
     meaning: "Le Souverain",
     family: "Majesté",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `« Al-Malik », qui se traduit par « Le Souverain » ou « Le Roi », proclame qu'Allah possède la royauté absolue sur l'ensemble de la création. Contrairement aux pouvoirs humains qui sont éphémères, Son règne n'a ni début ni fin, et tout ce qui existe Lui appartient réellement. Cette réalité nous rappelle que les êtres humains ne sont que des dépositaires temporaires de ce qu'ils ont. Connaître ce nom libère le croyant de la peur des puissants de ce monde et lui enseigne à exercer toute autorité avec justice et humilité.`,
+    explanationKids: `« Al-Malik » est l'un des noms de Dieu qui signifie « Le Roi » ou « Le Souverain ». Cela veut dire que Dieu est le seul et unique Chef de tout l'univers, et que Son royaume ne s'arrête jamais. Tout ce qu'on possède sur Terre (comme nos jouets ou notre maison) ne nous appartient pas vraiment, c'est juste un cadeau qu'Il nous prête. Par exemple, comme dans les histoires, un vrai roi protège son peuple, mais Allah, Lui, prend soin de tout le monde avec amour et justice !`,
+    verset: `« C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent. » (Sourate Al-Hashr, 59:23).
+    
+    « Béni soit Celui dans la main de qui est la royauté, et Il est Omnipotent. » (Sourate Al-Mulk, 67:1).
+    
+    « Le Souverain des hommes, » (Sourate An-Nas, 114:2).
+    
+    « Dis : Ô Allah, Maître de l'autorité absolue. Tu donnes l'autorité à qui Tu veux, et Tu arraches l'autorité à qui Tu veux » (Sourate Āl ‘Imrān, 3:26).`,
+    hadith: `Le Prophète ﷺ a annoncé qu'au Jour de la résurrection, Allah saisira la terre, pliera les cieux dans Sa Main droite, puis dira : « C'est Moi le Roi ! Où sont les rois de la terre ? » (rapporté par Al-Bukhārī et Muslim)`,
     invocations: "",
   },
   {
@@ -1359,9 +1372,13 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Quddus",
     meaning: "Le Saint",
     family: "Majesté",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne la pureté absolue d'Allah : Il est totalement exempt de tout défaut, de toute faiblesse et de toute ressemblance avec les créatures. Sa souveraineté est parfaitement sainte et sans injustice.`,
+    explanationKids: `Cela veut dire qu'Allah est parfait et pur à 100 %, Il n'a aucun défaut, Il ne se trompe jamais et ne fatigue jamais ! Par exemple, les rois de la Terre font des erreurs, mais Allah est parfait et sans aucun défaut.`,
+    verset: `« C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)
+
+
+
+« Ce qui est dans les cieux et ce qui est sur la terre glorifient Allah, le Souverain, le Saint... » (Sourate Al-Jumu‘a, 62:1)`,
     hadith: "",
     invocations: "",
   },
@@ -1371,9 +1388,13 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "As-Salam",
     meaning: "La Paix",
     family: "Beauté",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Nom désignant Allah comme étant la source exclusive de toute paix et sérénité. Il est exempt de tout défaut et accorde la sécurité et la paix éternelle à Ses serviteurs.`,
+    explanationKids: `C'est Celui qui nous donne la tranquillité dans le cœur et la sécurité. Quand on a peur ou qu'on est inquiet, c'est Allah qui nous apporte la paix et le calme.`,
+    verset: `« C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)
+
+
+
+« Allah appelle à la Demeure de la paix. » (Sourate Yūnus, 10:25)`,
     hadith: "",
     invocations: "",
   },
@@ -1383,9 +1404,13 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Mu'min",
     meaning: "Le Fidèle, le Garant de la sécurité",
     family: "Protection",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne Celui qui rassure Ses créatures, protège de la peur et garantit l'accomplissement parfait de Ses promesses et la vérité de Sa révélation.`,
+    explanationKids: `C'est Dieu qui nous protège du danger et nous rassure quand on a peur. Quand Il promet quelque chose (comme nous donner le Paradis si on fait le bien), Il tient toujours Sa promesse !`,
+    verset: `« C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)
+
+
+
+« Ceux qui ont cru et n'ont pas troublé la pureté de leur foi par quelque injustice, ceux-là ont la sécurité... » (Sourate Al-An‘ām, 6:82)`,
     hadith: "",
     invocations: "",
   },
@@ -1395,9 +1420,9 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Muhaymin",
     meaning: "Le Préservateur",
     family: "Protection",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne la surveillance et la protection absolues d'Allah sur toute la création. Il voit tout, connaît le caché et régit chaque détail avec domination et sagesse.`,
+    explanationKids: `Cela veut dire qu'Allah veille sur nous à chaque seconde, Il voit tout ce qu'on fait et protège l'univers entier. Comme un gardien suprême, rien ne Lui échappe, pas même une petite fourmi dans la nuit !`,
+    verset: `« C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)`,
     hadith: "",
     invocations: "",
   },
@@ -1407,9 +1432,11 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-'Aziz",
     meaning: "Le Tout-Puissant",
     family: "Puissance",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Exprime la puissance invincible et la dignité absolue d'Allah. Rien ne peut Le vaincre ni Lui nuire, et Il est la source unique de toute vraie force et honneur.`,
+    explanationKids: `C'est Le plus Fort de tous, que personne ne peut jamais battre ou dépasser. Même les plus grands super-héros ne sont rien à côté de Sa force immense !`,
+    verset: `« C'est à Allah qu'appartiennent la puissance, ainsi qu'à Son messager et aux croyants. » (Sourate Al-Munāfiqūn, 63:8)
+    
+    « C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)`,
     hadith: "",
     invocations: "",
   },
@@ -1419,9 +1446,9 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Jabbar",
     meaning: "Le Contraignant",
     family: "Puissance",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Possède un double sens : Sa volonté s'impose irrésistiblement à toute chose, mais Il est aussi Celui qui répare et console les cœurs brisés ou affligés.`,
+    explanationKids: `Ce nom veut dire qu'Allah est très puissant pour faire respecter Ses règles, mais aussi qu'Il est là pour soigner nos peines. Si tu tombes et que tu te fais mal au cœur ou au corps, c'est Lui qui te réconforte et répare ta peine.`,
+    verset: `C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)`,
     hadith: "",
     invocations: "",
   },
@@ -1431,9 +1458,9 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Mutakabbir",
     meaning: "Le Magnifique",
     family: "Majesté",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Proclame la grandeur légitime d'Allah. Contrairement à l'orgueil humain qui est une fausse prétention, la grandeur d'Allah est la vérité absolue de Son essence supérieure à tout défaut.`,
+    explanationKids: `Il est le seul à posséder la vraie et immense Grandeur. Les hommes ne doivent pas faire les fiers ou les orgueilleux, car tout ce qu'on a vient d'Allah, qui est le seul Vrai Grand.`,
+    verset: `C'est Lui, Allah. Nulle divinité autre que Lui; Le Souverain, Le Pur, L'Apaisant, Le Rassurant, Le Prédominant, Le Tout Puissant, Le Contraignant, L'Orgueilleux. Gloire à Allah ! Il transcende ce qu'ils Lui associent.» (Sourate Al-Hashr, 59:23)`,
     hadith: "",
     invocations: "",
   },
@@ -1443,9 +1470,11 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Khaliq",
     meaning: "Le Créateur",
     family: "Création",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne Allah comme l'Origine première de toute existence. Il crée tout à partir du néant, avec une mesure et une proportion parfaites et continues.`,
+    explanationKids: `C'est Le Grand Créateur qui a tout inventé à partir de rien : les étoiles, les animaux, les arbres et les êtres humains. Tout ce que tu vois autour de toi est Son œuvre !`,
+    verset: `« Allah est le Créateur de toute chose, et de toute chose Il est Garant. » (Sourate Az-Zumar, 39:62).
+    
+    « Ton Seigneur est certes le Grand Créateur, l'Omniscient. » (Sourate Al-Hijr, 15:86).`,
     hadith: "",
     invocations: "",
   },
@@ -1455,9 +1484,9 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Bari'",
     meaning: "Le Producteur",
     family: "Création",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne le passage effectif du néant à l'existence, en donnant la vie de façon harmonieuse, fluide et exempte de moindre défaut ou d'erreur.`,
+    explanationKids: `C'est Celui qui donne vie aux choses de façon parfaite et sans aucun défaut. Quand Il décide de créer un oiseau, Il le fait naître directement avec tout ce qu'il faut pour voler et chanter sans qu'il ne manque rien.`,
+    verset: `« C'est Lui Allah, le Créateur, Celui qui donne un commencement à toute chose, le Formateur. A Lui les plus beaux noms. Tout ce qui est dans les cieux et la terre Le glorifie. Et c'est Lui le Puissant, le Sage.» (Sourate Al-Hashr, 59:24)`,
     hadith: "",
     invocations: "",
   },
@@ -1467,9 +1496,11 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Musawwir",
     meaning: "Le Formateur",
     family: "Création",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Désigne Celui qui donne à chaque être sa forme, son dessin, ses détails uniques et son apparence propre (empreintes, traits du visage, couleurs).`,
+    explanationKids: `C'est l'Artiste suprême qui dessine et donne à chacun son visage unique. Par exemple, Il a fait qu'aucun être humain sur Terre n'a exactement les mêmes empreintes de doigts qu'un autre !`,
+    verset: `« C'est Lui qui vous façonne dans les matrices comme Il veut. » (Sourate Āl 'Imrān, 3:6).
+    
+    « C'est Lui Allah, le Créateur, Celui qui donne un commencement à toute chose, le Formateur. A Lui les plus beaux noms. Tout ce qui est dans les cieux et la terre Le glorifie. Et c'est Lui le Puissant, le Sage.» (Sourate Al-Hashr, 59:24)`,
     hadith: "",
     invocations: "",
   },
@@ -1479,9 +1510,13 @@ Le Nom de l'adoration : ilāh signifie « celui qui est adoré » ; le Nom Allah
     name: "Al-Ghaffar",
     meaning: "Le Grand Pardonneur",
     family: "Miséricorde",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Indique la répétition inépuisable du pardon divin. Allah couvre les fautes, les efface et préserve Son serviteur de la honte chaque fois qu'il se repent.`,
+    explanationKids: `C'est Celui qui pardonne encore et encore. Quand on fait une bêtise et qu'on dit pardon sincèrement, Allah efface notre faute comme un coup d'éponge sur un tableau blanc !`,
+    verset: `« J'ai dit : implorez le pardon de votre Seigneur, car Il est le Grand Pardonneur (Al-Ghaffār). » (Sourate Nūh, 71:10)
+
+
+
+« Et Je suis certes Grand Pardonneur envers celui qui se repent... » (Sourate Tā-Hā, 20:82)`,
     hadith: "",
     invocations: "",
   },
