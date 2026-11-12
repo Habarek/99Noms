@@ -1,4 +1,4 @@
-export const nameOfAllah = [
+export const NAME = [
   {
     id: 1,
     name: "Allah",
@@ -1294,7 +1294,7 @@ L'autorité qui domine : Sa surveillance n'est pas celle d'un simple observateur
   },
 ];
 
-const NAME = [
+export const nameOfAllah = [
   {
     id: 1,
     arabic: "الله",
@@ -1526,9 +1526,11 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Qahhar",
     meaning: "Le Dominateur Suprême",
     family: "Puissance",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Qahhār signifie qu'Allah exerce une domination absolue sur toute Sa création et que rien ne peut s'opposer à Sa puissance. Aucun être, même le plus puissant, ne peut échapper à Son pouvoir. Ce Nom nous rappelle de rester humbles, de placer notre confiance en Allah et de garder espoir face à l'injustice.`,
+    explanationKids: `Al-Qahhār signifie qu'Allah domine tout, Allah est le plus puissant et que personne ne peut Le vaincre. Même les personnes qui se croient très fortes ne sont pas plus puissantes qu'Allah. Cela nous apprend à ne pas être orgueilleux et à demander de l'aide à Allah lorsque nous rencontrons des difficultés.`,
+    verset: `« Des seigneurs éparpillés valent-ils mieux qu'Allah, l'Unique, le Dominateur suprême ? » (Sourate Yūsuf, 12:39).
+    
+    « À qui appartient la royauté aujourd'hui ? À Allah, l'Unique, le Dominateur suprême. » (Sourate Ghāfir, 40:16)`,
     hadith: "",
     invocations: "",
   },
@@ -1538,11 +1540,15 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Wahhab",
     meaning: "Le Donateur gracieux",
     family: "Providence",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Wahhāb signifie qu'Allah est Celui qui donne généreusement, sans rien attendre en échange et sans que Ses trésors ne diminuent. Il nous accorde des bienfaits matériels, mais aussi des cadeaux précieux comme la foi, la miséricorde et la guidance. Ce Nom nous apprend à reconnaître Ses bienfaits, à être reconnaissants et à demander avant tout les dons qui rapprochent de Lui.`,
+    explanationKids: `Al-Wahhāb signifie qu'Allah est Celui qui nous offre de nombreux bienfaits sans rien attendre en retour. Il nous donne des choses précieuses comme la vie, la famille, la santé et la nourriture. Même lorsque nous ne demandons rien, Allah nous accorde de nombreux bienfaits. Ce Nom nous apprend à remercier Allah et à partager généreusement avec les autres.`,
+    verset: `« Seigneur ! Ne laisse pas dévier nos cœurs après que Tu nous aies guidés, et accorde-nous Ta miséricorde. C'est Toi, certes, le Grand Donateur. » (Sourate Āl 'Imrān, 3:8).
+    
+    « Seigneur, pardonne-moi et accorde-moi un royaume tel que nul après moi n'en aura de pareil. C'est Toi le Grand Donateur. » (Sourate Sād, 38:35)
+
+`,
     hadith: "",
-    invocations: "",
+    invocations: `« Seigneur ! Ne laisse pas dévier nos cœurs après que Tu nous aies guidés, et accorde-nous Ta miséricorde. C'est Toi, certes, le Grand Donateur. » (Sourate Āl 'Imrān, 3:8) `,
   },
   {
     id: 18,
@@ -1550,11 +1556,13 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Ar-Razzaq",
     meaning: "Le Pourvoyeur",
     family: "Providence",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Ar-Razzāq signifie qu'Allah est Celui qui accorde la subsistance à toutes Ses créatures, sans en oublier aucune. Cette subsistance ne concerne pas seulement l'argent et la nourriture, mais aussi la santé, le savoir, la foi et la tranquillité du cœur. Ce Nom nous apprend à faire confiance à Allah, à rechercher notre subsistance de manière licite et à ne pas vivre dans la peur excessive du lendemain.`,
+    explanationKids: `Ar-Razzāq signifie qu'Allah est Celui qui donne à toutes Ses créatures ce dont elles ont besoin pour vivre. Il nous donne de la nourriture, de l'eau, une famille et tout ce qui nous permet de grandir. Même les petits oiseaux et les animaux reçoivent leur nourriture grâce à Lui. Ce Nom nous apprend à remercier Allah et à Lui faire confiance.`,
+    verset: `« En vérité, c'est Allah qui est le Grand Pourvoyeur, le Détenteur de la force, l'Inébranlable. » (Sourate Adh-Dhāriyāt, 51:58).
+    
+    « Il n'y a point de bête sur terre dont la subsistance n'incombe à Allah. » (Sourate Hūd, 11:6)`,
     hadith: "",
-    invocations: "",
+    invocations: `Le Prophète ﷺ a enseigné cette invocation : « Ô Allah, dispense-moi de l'illicite par Ton licite, et enrichis-moi par Ta grâce de sorte que je n'aie besoin de personne d'autre que Toi. » (rapporté par At-Tirmidhī).`,
   },
   {
     id: 19,
@@ -1562,9 +1570,11 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Fattah",
     meaning: "L'Opérateur / Juge",
     family: "Providence",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Fattāh signifie qu'Allah est Celui qui ouvre les portes de Sa miséricorde, de la connaissance, de la guidance et de la réussite. Il est également Celui qui juge entre les êtres avec une justice et une connaissance parfaites. Ce Nom nous rappelle qu'aucune situation n'est impossible pour Allah et qu'Il peut nous accorder une issue là où nous n'en voyons pas. Il nous apprend à Lui demander de faciliter nos difficultés tout en faisant les efforts nécessaires.`,
+    explanationKids: `Al-Fattāh signifie qu'Allah est Celui qui ouvre les portes du bien et nous aide lorsque nous rencontrons des difficultés. Il peut nous faciliter les choses, nous aider à apprendre et nous guider vers ce qui est bon. Même lorsqu'une situation semble impossible, nous pouvons demander Son aide et garder espoir. Ce Nom nous apprend à faire confiance à Allah et à ne jamais perdre espoir.`,
+    verset: `« Dis : "Notre Seigneur nous réunira, puis Il tranchera entre nous avec la vérité, car c'est Lui le Grand Juge, l'Omniscient." » (Sourate Saba', 34:26).
+    
+    « Ce qu'Allah accorde aux hommes comme miséricorde, nul ne peut la retenir ; et ce qu'Il retient, nul ne peut le relâcher après Lui. » (Sourate Fātir, 35:2).`,
     hadith: "",
     invocations: "",
   },
@@ -1574,9 +1584,12 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-'Alim",
     meaning: "L'Omniscient",
     family: "Science",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: ` Al-'Alīm signifie qu'Allah possède une connaissance parfaite et infinie de toute chose. Il connaît le passé, le présent, l'avenir, ce qui est visible et ce qui est caché, ainsi que les intentions de chacun. Ce Nom nous rappelle qu'aucune de nos épreuves ni aucune de nos bonnes actions ne passent inaperçues auprès d'Allah. Il nous apprend à être sincères, à rester humbles et à rechercher le savoir.`,
+    explanationKids: `Al-'Alīm signifie qu'Allah connaît absolument tout, même les choses que personne ne peut voir. Il connaît nos pensées, nos paroles, nos actions et même ce que nous gardons dans notre cœur. Rien ne Lui échappe, même une petite feuille qui tombe d'un arbre. Ce Nom nous apprend à être sincères et à nous rappeler qu'Allah connaît tout ce que nous faisons.`,
+    verset: `« C'est Lui qui détient les clés de l'Inconnaissable : nul autre que Lui ne les connaît. Il connaît ce qui est dans la terre ferme et dans la mer ; pas une feuille ne tombe sans qu'Il ne le sache. » (Sourate Al-An'ām, 6:59).
+    
+    « Gloire à Toi ! Nous n'avons de savoir que ce que Tu nous as appris. Certes, c'est Toi l'Omniscient, le Sage. » (Sourate Al-Baqara, 2:32)
+`,
     hadith: "",
     invocations: "",
   },
@@ -1586,9 +1599,11 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Qabid",
     meaning: "Celui qui retient",
     family: "Providence",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Qābid signifie qu'Allah est Celui qui retient et restreint certaines choses selon Sa sagesse, comme la subsistance ou certains bienfaits. Cette restriction n'est pas forcément un signe de punition, car Allah connaît ce qui est bon pour Ses serviteurs. Ce Nom nous apprend à faire preuve de patience dans les périodes difficiles et à ne pas perdre espoir lorsque les choses deviennent compliquées. Il est souvent associé à Al-Bāsit, Celui qui étend et accorde avec générosité.`,
+    explanationKids: `Al-Qābid signifie qu'Allah peut retenir ou diminuer certains bienfaits selon Sa sagesse. Parfois, nous traversons des moments difficiles où nous avons moins de choses ou où notre cœur est triste. Cela ne veut pas dire qu'Allah nous a oubliés. Ce Nom nous apprend à être patients et à garder confiance en Allah, même dans les moments difficiles.`,
+    verset: `« Et Allah restreint et étend (Ses faveurs), et c'est vers Lui que vous retournerez. » (Sourate Al-Baqara, 2:245)
+
+« Si Allah étendait Ses dons à (tous) Ses serviteurs, ils commettraient des abus sur la terre ; mais Il fait descendre avec mesure ce qu'Il veut. Il est, envers Ses serviteurs, Parfaitement Connaisseur et Clairvoyant. » (Sourate Ash-Shūrā, 42:27)`,
     hadith: "",
     invocations: "",
   },
@@ -1598,10 +1613,12 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Basit",
     meaning: "Celui qui étend",
     family: "Providence",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `Al-Bāsit signifie qu'Allah est Celui qui étend Sa générosité, augmente la subsistance et accorde Ses bienfaits à Ses créatures. Cette générosité concerne aussi le cœur, à travers la sérénité, la foi et le pardon. Ce Nom nous apprend à être reconnaissants lorsque nous recevons Ses bienfaits et à les partager avec les autres. Il est associé à Al-Qābid, Celui qui retient, car Allah accorde et restreint selon Sa sagesse.`,
+    explanationKids: `Al-Bāsit signifie qu'Allah est Celui qui accorde Ses bienfaits avec générosité et qui peut nous donner davantage. Il peut nous offrir de la nourriture, de la joie, de la tranquillité et rendre nos cœurs heureux. Il nous ouvre aussi les portes du pardon lorsque nous regrettons nos erreurs. Ce Nom nous apprend à remercier Allah et à partager ce que nous avons avec les autres.`,
+    verset: `« Et Allah restreint et étend (Ses faveurs), et c'est vers Lui que vous retournerez. » (Sourate Al-Baqara, 2:245)
+
+« Et quoi que vous dépensiez, Il le remplacera, et c'est Lui le Meilleur des donateurs. » (Sourate Saba', 34:39)`,
+    hadith: ``,
     invocations: "",
   },
   {
@@ -1610,10 +1627,12 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Khafid",
     meaning: "Le Réducteur",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `Al-Khāfid nous rappelle qu’aucune puissance ni aucune réussite ne sont au-dessus d’Allah. Il peut abaisser les injustes et les orgueilleux, même s’ils semblent réussir pendant un certain temps. Ce Nom nous invite à combattre l’orgueil en nous-mêmes, à ne mépriser personne et à ne pas envier ceux qui s’élèvent par l’injustice. L’humilité sincère envers Allah est une qualité qui élève le croyant auprès de Lui.`,
+    explanationKids: `Allah peut abaisser les personnes qui deviennent orgueilleuses, qui se croient meilleures que les autres ou qui font du mal aux gens. Il nous apprend à ne pas nous moquer des autres, à reconnaître nos erreurs et à rester gentils, même quand on a des qualités. Être humble pour Allah ne veut pas dire être faible : cela signifie avoir un cœur doux et respectueux. Et celui qui s’humilie devant Allah, Allah peut l’élever.`,
+    verset: `« Dis : "Ô Allah, Maître de l'autorité absolue ! Tu donnes l'autorité à qui Tu veux, et Tu arraches l'autorité à qui Tu veux. Tu donnes la puissance à qui Tu veux, et Tu humilies qui Tu veux." » (Sourate Āl 'Imrān, 3:26)
+    
+    « Elle abaissera (les uns) et élèvera (les autres). » (Sourate Al-Wāqi'a, 56:3)`,
+    hadith: `le Prophète ﷺ a dit : « Quiconque s'abaisse par humilité pour Allah, Allah l'élève. » (rapporté par Muslim) `,
     invocations: "",
   },
   {
@@ -1622,9 +1641,9 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Ar-Rafi'",
     meaning: "L'Éleveur",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Ar-Rāfi' est Celui qui élève le rang de Ses serviteurs par la foi, la connaissance et les bonnes actions. Il nous apprend que la vraie valeur d’une personne ne dépend ni de sa richesse, ni de sa célébrité, mais de sa proximité avec Allah. Ce Nom nous encourage à apprendre le Coran, à développer notre foi et à rester humbles, car Allah élève celui qui s’humilie sincèrement pour Lui.`,
+    explanationKids: `Allah peut élever les personnes qui croient en Lui, qui apprennent de bonnes choses et qui font le bien. Par exemple, quand tu apprends le Coran, que tu aides quelqu’un ou que tu restes humble, Allah peut t’accorder une belle place auprès de Lui. Ce qui rend une personne importante aux yeux d’Allah, ce n’est pas sa richesse ou ses beaux vêtements, mais la foi et les bonnes actions.`,
+    verset: `« Allah élèvera en degrés ceux d'entre vous qui auront cru et ceux qui auront reçu le savoir. » (Sourate Al-Mujādala, 58:11)`,
     hadith: "",
     invocations: "",
   },
@@ -1634,11 +1653,13 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Mu'izz",
     meaning: "Celui qui honore",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Mu'izz nous rappelle que le véritable honneur ne vient ni de l’argent, ni du pouvoir, ni du regard des autres : il vient d’Allah. Il donne à Ses serviteurs la force et la dignité, notamment lorsqu’ils restent fidèles à leur foi et à leurs valeurs. Ce Nom nous encourage à rechercher l’approbation d’Allah plutôt que celle des gens, et à ne jamais rabaisser ou humilier les autres.`,
+    explanationKids: `Allah est Celui qui donne la force et la dignité à qui Il veut. Par exemple, même si une personne est pauvre ou n’a pas beaucoup de choses, elle peut être très précieuse aux yeux d’Allah grâce à sa foi et à ses bonnes actions. Allah nous apprend à ne pas chercher à impressionner les autres, à rester honnêtes et à respecter tout le monde.`,
+    verset: `« Dis : "Ô Allah, Maître de l'autorité absolue ! Tu donnes l'autorité à qui Tu veux et Tu arraches l'autorité à qui Tu veux ; Tu donnes la puissance à qui Tu veux et Tu humilies qui Tu veux." » (Sourate Āl 'Imrān, 3:26.
+    
+    « Quiconque veut la puissance… c'est à Allah qu'appartient toute la puissance. » (Sourate Fātir, 35:10).`,
     hadith: "",
-    invocations: "",
+    invocations: `« Dis : "Ô Allah, Maître de l'autorité absolue ! Tu donnes l'autorité à qui Tu veux et Tu l'arraches à qui Tu veux ; Tu donnes la puissance à qui Tu veux et Tu humilies qui Tu veux. Le bien est en Ta main, et Tu es Omnipotent." » (Sourate Āl 'Imrān, 3:26)`,
   },
   {
     id: 26,
@@ -1646,11 +1667,14 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Mudhill",
     meaning: "Celui qui humilie",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Moudhill nous rappelle que la puissance et la richesse ne protègent pas ceux qui agissent avec orgueil et injustice. Allah peut retirer leur pouvoir aux tyrans et rétablir la justice, même si cela prend du temps. Ce Nom nous invite à combattre notre propre orgueil, à respecter les autres et à garder confiance en Allah lorsque nous subissons une injustice.`,
+    explanationKids: `Allah peut rabaisser les personnes qui deviennent orgueilleuses, qui font du mal aux autres et qui se croient meilleures que tout le monde. Par exemple, Pharaon était très puissant, mais il a été vaincu parce qu’il était injuste et arrogant. Ce Nom nous apprend à ne jamais nous moquer des autres, à rester humbles et à toujours essayer de faire le bien.`,
+    verset: `« Tu donnes la puissance à qui Tu veux et Tu humilies qui Tu veux. Le bien est en Ta main. » (Sourate Āl 'Imrān, 3:26).
+    
+    « Ceux qui s'opposent à Allah et à Son messager, ceux-là seront parmi les plus humiliés. » (Sourate Al-Mujādala, 58:20)`,
     hadith: "",
-    invocations: "",
+    invocations: `Allah dit : « C'est à Allah qu'appartiennent les plus beaux Noms. Invoquez-Le par ces Noms » (7:180). Le croyant invoque ce Nom contre l'injustice — jamais par vengeance personnelle, mais pour le triomphe du droit : يَا مُذِلَّ كُلِّ جَبَّارٍ عَنِيدٍ اكْفِنِي شَرَّ الظَّالِمِينَ
+« Ô Toi qui humilies tout tyran obstiné, préserve-moi du mal des injustes. » Et il demande pour lui-même la protection contre l'orgueil, cause de toute humiliation.`,
   },
   {
     id: 27,
@@ -1658,11 +1682,16 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "As-Sami'",
     meaning: "L'Audient",
     family: "Connaissance",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
-    invocations: "",
+    explanation: `As-Samī' signifie qu’aucune parole, aucun murmure et aucune plainte n’échappent à Allah. Il entend celui qui L’invoque, même lorsque personne d’autre ne l’écoute. Ce Nom nous apporte du réconfort dans les moments difficiles et nous rappelle de surveiller nos paroles, en évitant le mensonge, les insultes et la médisance.`,
+    explanationKids: `Allah entend tout ce que nous disons, même lorsque nous parlons tout doucement ou que nous faisons une petite invocation dans notre cœur. Par exemple, si tu es triste et que tu demandes de l’aide à Allah sans parler à voix haute, Il t’entend. Cela nous apprend à Lui parler à tout moment et à faire attention aux mots que nous utilisons avec les autres.`,
+    verset: `« Allah a bien entendu la parole de celle qui discutait avec toi à propos de son époux et qui se plaignait à Allah. Et Allah entendait votre conversation. Allah est Audient et Clairvoyant. » (Sourate Al-Mujādala, 58:1)
+
+
+« Louange à Allah qui, malgré ma vieillesse, m'a donné Ismā'īl et Ishāq. Certes, mon Seigneur entend parfaitement l'invocation. » (Sourate Ibrāhīm, 14:39)    `,
+    hadith: `Le Prophète ﷺ dit à ses compagnons qui élevaient la voix dans le dhikr : « Vous n'invoquez pas un sourd ni un absent : vous invoquez un Audient, Proche. » (rapporté par Al-Bukhārī et Muslim). Nul besoin de crier, nul besoin d'intermédiaire — la du'ā chuchotée arrive entière.
+    
+    Le Prophète ﷺ a dit : « Que celui qui croit en Allah et au Jour dernier dise du bien ou qu'il se taise. » (rapporté par Al-Bukhārī et Muslim).`,
+    invocations: `« Notre Seigneur, accepte cela de notre part. C'est Toi, certes, l'Audient, l'Omniscient. » (Sourate Al-Baqara, 2:127)`,
   },
   {
     id: 28,
@@ -1670,10 +1699,14 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Basir",
     meaning: "Le Clairvoyant",
     family: "Connaissance",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `Al-Basīr signifie qu’aucune chose n’échappe à la vision d’Allah : Il voit nos actions, nos efforts et même ce que nous faisons en secret. Ce Nom nous rappelle que nous ne sommes jamais oubliés, notamment lorsque nous traversons une injustice ou une épreuve. Il nous encourage à être sincères dans nos actions, à éviter les péchés cachés et à faire le bien sans attendre les compliments des autres.`,
+    explanationKids: `Allah voit absolument tout, même dans le noir et même lorsque personne ne nous regarde. Par exemple, Il voit quand tu aides quelqu’un en secret, quand tu fais une bonne action ou quand tu fais quelque chose de mal sans que les autres le sachent. Cela nous apprend à toujours faire le bien, même lorsque nous sommes seuls, car Allah nous voit et connaît notre cœur.`,
+    verset: `« Rien ne Lui ressemble ; et c'est Lui l'Audient, le Clairvoyant. » (Sourate Ash-Shūrā, 42:11).
+    
+    « Ne sait-il pas qu'Allah voit ? » (Sourate Al-'Alaq, 96:14)
+
+ « Ne craignez rien. Je suis avec vous : J'entends et Je vois. » (Sourate Tā-Hā, 20:46) `,
+    hadith: `Interrogé par l'ange Jibrīl sur l'ihsān, le Prophète ﷺ répondit : « C'est que tu adores Allah comme si tu Le voyais ; car si tu ne Le vois pas, Lui te voit. » (rapporté par Muslim).`,
     invocations: "",
   },
   {
@@ -1682,9 +1715,11 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Hakam",
     meaning: "Le Juge",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Hakam est Celui qui juge toutes les situations avec une justice et une sagesse parfaites. Contrairement aux humains, Allah ne se trompe pas, ne favorise personne et aucun droit ne Lui échappe. Ce Nom nous apprend à agir avec équité dans nos propres décisions et à ne pas laisser l’injustice nous rendre injustes à notre tour. Même lorsque nos droits ne sont pas reconnus ici-bas, nous gardons confiance en la justice d’Allah.`,
+    explanationKids: `Allah est le meilleur des juges : Il sait toujours ce qui est juste et ne se trompe jamais. Même si une personne est accusée injustement ou si personne ne reconnaît la vérité, Allah connaît ce qui s’est réellement passé. Il nous apprend à être justes avec les autres, sans faire de favoritisme. Quand nous subissons une injustice, nous pouvons Lui faire confiance pour rétablir la justice.`,
+    verset: `« Chercherai-je un autre juge qu'Allah, alors que c'est Lui qui a fait descendre vers vous le Livre détaillé ? » (Sourate Al-An'ām, 6:114).
+    
+    « Allah n'est-Il pas le plus juste des juges ? » (Sourate At-Tīn, 95:8)`,
     hadith: "",
     invocations: "",
   },
@@ -1694,10 +1729,14 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-'Adl",
     meaning: "Le Juste",
     family: "Justice",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `Al-'Adl signifie qu'Allah est parfaitement juste dans tous Ses jugements et toutes Ses décisions. Il ne fait subir aucune injustice à Ses créatures : chaque bonne action compte et chaque personne sera jugée avec une justice parfaite. Ce Nom nous invite à être équitables, même lorsque cela nous demande de reconnaître nos torts ou de défendre quelqu'un avec qui nous ne sommes pas d'accord. Il nous rappelle aussi que les injustices qui restent sans réponse ici-bas ne seront jamais oubliées par Allah.`,
+    explanationKids: `Allah est toujours juste et ne fait jamais de mal à personne. Il n'oublie aucune bonne action et ne punit jamais quelqu'un pour une faute qu'il n'a pas commise. Ce Nom nous apprend à être justes avec tout le monde, par exemple en partageant équitablement ou en reconnaissant nos erreurs. Nous devons éviter de faire du mal aux autres, même lorsque personne ne nous regarde.`,
+    verset: `« Certes, Allah ne lèse personne, fût-ce du poids d'un atome. » (Sourate An-Nisā', 4:40)
+    
+    « Au Jour de la Résurrection, Nous placerons les balances exactes. Nulle âme ne sera lésée en rien, fût-ce du poids d'un grain de moutarde. » (Sourate Al-Anbiyā', 21:47).
+    
+    « Certes, Allah ordonne l'équité et la bienfaisance » (Sourate An-Nahl, 16:90).`,
+    hadith: `Dans un hadith qudsi rapporté par Muslim, Allah dit : « Ô Mes serviteurs, Je Me suis interdit l'injustice et Je l'ai rendue interdite entre vous : ne soyez donc pas injustes les uns envers les autres. »`,
     invocations: "",
   },
   {
@@ -1706,10 +1745,12 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Latif",
     meaning: "Le Subtil",
     family: "Miséricorde",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
-    hadith: "",
+    explanation: `Al-Latīf signifie qu'Allah connaît parfaitement les moindres détails de notre vie et qu'Il nous accorde Ses bienfaits avec une douceur souvent invisible. Son aide peut arriver par des chemins inattendus, parfois au cœur même d'une épreuve. Ce Nom nous invite à garder confiance en Sa sagesse, même lorsque nous ne comprenons pas ce que nous traversons. Il nous encourage également à agir avec douceur, patience et bienveillance envers les autres.`,
+    explanationKids: `Allah connaît tout de nous, même les petits secrets que personne ne voit. Il prend soin de nous avec douceur et peut nous aider d'une manière que nous n'avions pas imaginée. Parfois, une difficulté peut nous conduire plus tard vers quelque chose de meilleur, comme dans l'histoire du prophète Youssouf. Ce Nom nous apprend aussi à être doux avec les autres, avec nos paroles et nos gestes.`,
+    verset: `« Allah est Bienveillant envers Ses serviteurs. Il attribue Sa subsistance à qui Il veut, et c'est Lui le Fort, le Puissant. » (Sourate Ash-Shūrā, 42:19).
+    
+    « Mon Seigneur est plein de douceur pour ce qu'Il veut. » (Sourate Yūsuf, 12:100)`,
+    hadith: `Le Prophète ﷺ a dit à ‘Ā'isha : « Allah est Doux et Il aime la douceur en toute chose. » (Al-Bukhārī et Muslim) Et dans une autre version : « Il donne par la douceur ce qu'Il ne donne pas par la dureté. » (Muslim)`,
     invocations: "",
   },
   {
@@ -1718,9 +1759,11 @@ Le Bonheur Dans La Pratique Du Verset Al Kursi, De Farid Al-Ansari
     name: "Al-Khabir",
     meaning: "Le Bien-Informé",
     family: "Science",
-    explanation: "",
-    explanationKids: "",
-    verset: "",
+    explanation: `Al-Khabīr signifie qu'Allah connaît parfaitement la réalité des choses, même ce qui est caché aux yeux des humains. Il connaît nos intentions, nos secrets, nos difficultés et sait ce qui se cache derrière chaque situation. Ce Nom nous invite à ne pas nous concentrer uniquement sur les apparences, mais à travailler la sincérité de notre cœur. Il nous apprend aussi à Lui faire confiance, car Il connaît nos besoins mieux que nous-mêmes.`,
+    explanationKids: `Allah connaît tout, même les choses que personne ne peut voir. Il connaît nos pensées, nos sentiments et les raisons pour lesquelles nous faisons quelque chose. Même si les autres ne comprennent pas ce que nous vivons, Allah, Lui, le sait parfaitement. Ce Nom nous apprend à être sincères et à faire le bien même lorsque personne ne nous regarde.`,
+    verset: `« Ne connaît-Il pas ce qu'Il a créé, alors que c'est Lui le Subtil, le Parfaitement Connaisseur ? » (Sourate Al-Mulk, 67:14).
+    
+    « Nul ne peut te renseigner comme Celui qui est parfaitement informé. » (Sourate Fātir, 35:14)`,
     hadith: "",
     invocations: "",
   },
